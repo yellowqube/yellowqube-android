@@ -34,7 +34,7 @@ allprojects {
     }
 ```
 
-### Step 2 : add to Application class
+### Step 3 : add to Application class
 ```kotlin
     YellowQube.startInit(this,"[APP_ID]")
 ```
