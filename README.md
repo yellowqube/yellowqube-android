@@ -1,34 +1,27 @@
 <img src="https://i.ibb.co/wz7mzcF/Artboard.png">
 
-# Yellow Qube : Chat SDK
-
-Chat Platform
+# Yellow Qube : Chat and Messaging Platform
 
 [![][license img]][license]
 
+## Overview
 
-## Last Version
+Android Chat SDK / Messaging SDK that lets you add real time chat and in-app messaging in your mobile (android, iOS) applications and website.
 
- - v0.0.1
- 
-## Installation
+## Getting Started
 
- - add to project `build.gradle`
+### Step 1 : Add the following in your project build.gradle repositories:
 ```sh
 allprojects {
     repositories {
-        .
-        .
          maven {
             url  "https://dl.bintray.com/yellowqube/maven"
         }
-      .
-      .
     }
 }
 ```
 
- - to use payment add to app `build.gradle`
+### Step 2 : Add the following in your module build.gradle dependencies:
 ```sh
     dependencies {
     
@@ -41,7 +34,7 @@ allprojects {
     }
 ```
 
- - add to Application class
+### Step 2 : add to Application class
 ```kotlin
     YellowQube.startInit(this,"[APP_ID]")
 ```
