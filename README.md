@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/80ww6wR/Artboard.png">
+<img src="https://i.ibb.co/wz7mzcF/Artboard.png">
 
 # Yellow Qube : Chat SDK
 
