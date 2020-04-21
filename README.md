@@ -1,6 +1,10 @@
-# Yellow Qube
+<img src="https://i.ibb.co/80ww6wR/Artboard.png">
+
+# Yellow Qube : Chat SDK
 
 Chat Platform
+
+[![][license img]][license]
 
 
 ## Last Version
@@ -38,10 +42,15 @@ allprojects {
 ```
 
  - add to Application class
-```
+```kotlin
     YellowQube.startInit(this,"[APP_ID]")
 ```
 
 # License
 
 - http://yellowqube.app
+
+
+
+[license]:LICENSE-2.0.txt
+[license img]:https://img.shields.io/badge/License-Apache%202-blue.svg
